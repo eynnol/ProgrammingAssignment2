@@ -13,8 +13,8 @@
 # These options are used as inputs into cacheSolve listed below
 
 makeCacheMatrix <- function(x = matrix()) {
-    inv = NULL
-    set = function(y) {
+    inv <- NULL
+    set <- function(y) {
         x <<- y
         inv <<- NULL
     }
